@@ -2,8 +2,8 @@ import openai
 import re
 import random
 
-#Using GPT-2 model  
-openai.api_key = "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"
+#Put your open ai api key below 
+openai.api_key = "OpenAi API Key"
 
 model_engine = "text-davinci-002"
 model_prompt = ("Please paraphrase the following sentence:\n"
